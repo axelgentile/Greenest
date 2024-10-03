@@ -14,7 +14,7 @@ public class GreenestMain {
                 new Palm("Laura", 5, Plant.typeOfLiquid.KRANVATTEN),
                 new Palm("Olof", 1, Plant.typeOfLiquid.KRANVATTEN)};
 
-        for (Plant plant : plants) {
+        for (Plant plant : plants) { //polymorfism & använder inkapslade variabler
             if (plant.getNameOfPlant().equalsIgnoreCase(plantToWater)) {
                 JOptionPane.showMessageDialog(null, plant.getNameOfPlant() + " behöver " + plant.getAmountOfLiquid() +
                         " liter " + plant.getTypeOfLiquid().toString().toLowerCase() + " per dag.");

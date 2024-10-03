@@ -5,7 +5,7 @@ public abstract class Plant implements AmountOfLiquid{
     enum typeOfLiquid{KRANVATTEN, MINERALVATTEN, PROTEINDRYCK;} //enum
     private String nameOfPlant;
     private double heightOfPlant;
-    private typeOfLiquid typeOfLiquid;
+    private typeOfLiquid typeOfLiquid; //inkasapsling
 
     public Plant(String nameOfPlant, double heightOfPlant, typeOfLiquid typeOfLiquid){
         this.nameOfPlant = nameOfPlant;
